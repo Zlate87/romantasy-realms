@@ -19,4 +19,4 @@ def hello_world():
     return render_template('books.html', books=books)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5055)
+    app.run(debug=False, port=5055, host="0.0.0.0")
